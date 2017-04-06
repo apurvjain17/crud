@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "crud": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "url": "postgres://postgres:postgres@127.0.0.1/postgres",
+    "database": "postgres",
+    "password": "",
+    "name": "apurv",
+    "user": "apurv",
+    "connector": "postgresql"
   }
 }
